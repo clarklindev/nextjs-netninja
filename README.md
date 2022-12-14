@@ -7,3 +7,9 @@
 - pages folder to mimic routes
 - SEO
 - performance
+
+## installation
+
+```
+npx create-next-app
+```
