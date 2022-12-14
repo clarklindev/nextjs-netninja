@@ -1,6 +1,20 @@
 import Link from 'next/link';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 const NotFound = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      router.push('/');
+    }, 3000);
+
+    return () => {
+      clearInterval(timer);
+    };
+  }, []);
+
   return (
     <div className="not-found">
       <h1>Oops..</h1>
