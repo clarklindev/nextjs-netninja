@@ -24,3 +24,13 @@ npx create-next-app
 ## jsonplaceholder
 
 - using this for test data
+
+## build
+
+- outputs to .next folder
+
+## deploy
+
+- upload project to github
+- sign up to vercel - link to github
+- create new project on vercel - link to repository
