@@ -20,3 +20,7 @@ npx create-next-app
 - global styles (styles/globals.css)
 - css modules (needs to declare styles as classes in css to reference in html)
 - styles.jsx (CSS-in-JS library - write encapsulated and scoped CSS to style your components)
+
+## jsonplaceholder
+
+- using this for test data
